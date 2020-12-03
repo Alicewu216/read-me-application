@@ -56,18 +56,14 @@ const questions = () =>
     ]);
 
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-// const generateREADME = (data) =>
-// `${data.title}
-// ${data.description}`
 
 // function to initialize program
 function init() {
     questions()
-    .then((data) => writeFileAsync('README,md',generateMarkdown(data)))
+    //function to write readme file
+    .then((data) => writeFileAsync('README1.md',generateMarkdown(data)))
     .then(() => console.log('Successfully wrote to README.md'))
+    //catch error if occured
     .catch((err) => console.error(err));
 }
 
