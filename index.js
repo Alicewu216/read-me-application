@@ -25,18 +25,23 @@ const questions = () =>
         {
             type: 'input',
             name: 'usage',
-            message: 'Please provide your usage informations.',
+            message: 'Please provide a Description for how to use your applciation.',
+        },
+        {
+            type: 'input',
+            name: 'applink',
+            message: 'Please add a path for your application screen shot or screen recording'
         },
         {
             type: 'input',
             name: 'contribution',
-            messge: 'Please provide your contribution guidlines.',
+            messge: 'Please provide the name for your collaborator',
         },
         {
             type: 'input',
-            name: 'test',
-            message: 'Please provide yout test instructions',
-        },
+            name: 'githublink',
+            message: 'If you have colloborator, please enter his/her github link',
+        },        
         {
             type: 'list',
             name: 'liscence',
