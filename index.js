@@ -29,7 +29,7 @@ const questions = () =>
         },
         {
             type: 'input',
-            name: 'applink',
+            name: 'apppath',
             message: 'Please add a path for your application screen shot or screen recording'
         },
         {
@@ -50,8 +50,8 @@ const questions = () =>
         },
         {
             type: 'input',
-            name: 'githubname',
-            message: 'What is your GitHub username?',
+            name: 'githubprofile',
+            message: 'What is the address of your GitHub profile page?',
         },
         {
             type: 'input',

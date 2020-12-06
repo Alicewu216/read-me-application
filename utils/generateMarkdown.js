@@ -18,16 +18,20 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+  ### Here is a demo of how the application should function
+  ![${data.title}](${data.apppath})
+
 
   ## Credits
-  ${data.contribution}
+  Our Collaborator include ${data.contribution}. Here's a link to his/her GitHub Page: ${data.githublink}
 
-  ## Tests
-  ${data.test}
 
-  ### liscence goes here
-  ### githublink
-  ### contact email address
+  ### This application uses the ${data.liscence} liscence.
+  
+
+  ### Code for application can be found in my GitHub link: ${data.githubprofile}.
+
+  ### If you have any questions regarding this application, please feel free to contact me via email: ${data.email}
 `;
 }
 
