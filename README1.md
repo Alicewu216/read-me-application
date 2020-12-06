@@ -6,7 +6,6 @@
   * [Installation Instructions](#installation)
   * [Usage](#usage)
   * [Contribution](#credits)
-  * [Tests](#tests)
 
   ## Description
   This website is a COVID-19 Symptom Checker. Three APIs are utilized as databases. User can enter informations including age and developed symptoms for analysis. The first EndlessMedical API will take in user inputs and provide a diagnosis of the top ten potential diseases. The website will also automatically find user's IP address, country, state, city information using the second IP API, which is then passed onto the third Coronavirus API to provide local COVID-19 statistics including current location, total tested number, total positive number, and total death count.

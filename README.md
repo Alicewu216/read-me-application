@@ -1,8 +1,20 @@
 # read-me-application
 
+* [Application Description](#description)
+* [Installation Instructions](#installation)
+* [Usage](#usage)
+* [Contribution](#credits)
+
 ## Description
 This application allows user to quickly and easily create a README file by using a command-line application.
-```md
+
+## Installation
+User can download original code from the repository. 
+Application will be invoked by using the following command:
+```bash
+npm i
+node index.js
+
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -19,17 +31,18 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-## Installation
-User can download original code from the repository. 
-Application will be invoked by using the following command:
-```bash
-npm i
-node index.js
-```
 ## Usage
 After invoking application:
 user can follow the prompt in terminal to input information about any application to generate a readme.md file
+
 ![test README generator with Project 1](./demo.gif)
 
 ## Credits
-MIT liscense
+  Our Collaborator include Alice Wu. Here's a link to his/her GitHub Page: alice.wu216@gmail.com
+
+  ### This application uses the MIT liscence.
+  
+
+  ### Code for application can be found in my GitHub link: https://github.com/Alicewu216.
+
+  ### If you have any questions regarding this application, please feel free to contact me via email: alice.wu216@gmail.com
